@@ -1,0 +1,13 @@
+[package]
+name = "threadtimes"
+version = "0.1.0"
+authors = ["Nikhil Marathe <nsm.nikhil@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+criterion = "0.2.5"
+libc = "0.2.45"
+
+[[bench]]
+name = "benchmark"
+harness = false
